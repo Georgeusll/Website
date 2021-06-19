@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Assignment_Website/style.css">
+  <link rel="stylesheet" href="../Assignment_Website/course.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<link rel="stylesheet" href="../Assignment_Website/table.css">
+
+<!-- style for the table -->
+<style>
+
+#natro{
+    padding-left:10%;
+    width:600px;
+}
+
+
+</style>
+    <title>University Website</title>
+</head>
+<body>
+    <section class="header">
+        <nav> 
+          <a href="mainpage.html"><img src="../Assignment_Website/images/logo.png" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-arrows-alt" onclick="hideMenu()" ></i>
+
+                <ul>
+                  <li><a href="../Assignment_Website/mainpage.html">HOME</a></li>
+                  <li><a href="../Assignment_Website/about.html">ABOUT</a></li>
+                  <li><a href="../Assignment_Website/course.html">COURSE</a></li>
+                  <li><a href="../Assignment_Website/register.html">REGISTER</a></li>
+                  <li><a href="#footer">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()" id = "menuicon"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>About Us</h1>
+            <p>something about sdsu</p>
+            
+        </div>
+    </section >
+    <section class="about_sdsu">
+
+        <h1>SDSU-G</h1>
+
+        <div class="buttons">
+            <button id="btnFadeOut">Fade Out</button>
+            <button id="btnFadeIn">Fade In</button>
+            <button id="btnFadeTog">Fade Toggle</button>
+           
+
+        </div>
+        <div class="info">
+            <img src="../Assignment_Website/images/sdsu1.jpg" class="img_sdsu">
+            <p id="sdsu_info">San Diego State University – Georgia (SDSU-Georgia) and Tbilisi State University (TSU) held a joint event announcing admission of students into internationally accredited bachelor degree programs developed in partnership with San Diego State University, starting from 2020-2021 academic year.
+
+                During the event the speakers 
+                have shared updates and news on 
+                granting international accreditation 
+                to these programs at partner universities,
+                n particular the official ABET*
+                 accreditation of the TSU 2020 degree 
+                 programs in Electrical and Electronics 
+                 Engineering and Computer Science, as well 
+                 as ACS** certification of
+                  biochemistry/chemistry program at TSU.
+            </p>
+            </div>
+
+            <h1>Proffessors</h1>
+        <table class="teachers">
+            <tr>
+                <th>Name</th>
+                <th>Picture</th>
+                <th>Subject</th>
+              </tr>
+              <tr>
+                <td>Giorgi Chelidze</td>
+                <td><img src="../Assignment_Website/images/chelo.jpg" ></td>
+                <td>Math</td>
+              </tr>
+              <tr>
+                <td>Irakli murtskvaladze</td>
+                <td><img src="../Assignment_Website/images/martskvala.jpg" ></td>
+                <td>Economics</td>
+              </tr>
+              <tr>
+                <td>Magda Tsintsadze</td>
+                <td><img src="../Assignment_Website/images/magda.jpg"> </td>
+                <td>Computer Science, Computer Engineering</td>
+              </tr>
+              <tr>
+                <td>Natro</td>
+                <td><img src="../Assignment_Website/images/natro.jpg.png" id="natro" ></td>
+                <td>MATH</td>
+              </tr>
+              <tr>
+                <td>Kevin</td>
+                <td><img src="../Assignment_Website/images/kevin.jpg"></td>
+                <td>Philosophy</td>
+              </tr>
+              <tr>
+                <td>Irma Ratiani</td>
+                <td><img src="../Assignment_Website/images/რატიანი.jpeg">  </td>
+                <td>Literature</td>
+              </tr>
+              <tr>
+                <td>Lela</td>
+                <td><img src="../Assignment_Website/images/lela.jpg"> </td>
+                <td>CS</td>
+              </tr>
+              <tr>
+                <td>Giorgi Dalaqishvili</td>
+                <td><img src="../Assignment_Website/images/dalaqa.jpg"></td>
+                <td>Physics, molecular biology
+
+                </td>
+              </tr>
+              <tr>
+                <td>Mariam Nebieridze</td>
+                <td><img src="../Assignment_Website/images/nebieridze.jpg"></td>
+                <td>Communication</td>
+              </tr>
+              <tr>
+                <td>Tsitsishvili</td>
+                <td><img src="../Assignment_Website/images/tsitso.jpg"></td>
+                <td>Physics</td>
+              </tr>
+              <tr>
+                  <td>Tinatin Davitashvili</td>
+                  <td><img src="../Assignment_Website/images/tina.jpg"></td>
+                  <td>Computer Engineering</td>
+              </tr>
+            </table>
+
+            </table>
+       
+
+
+
+
+    </section>
+    <section class="footer" id="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit,
+            amet consectetur adipisicing elit.
+            Temporibus ducimus nemo veniam repellat
+            magnam dolorum reiciendis et ipsum voluptas?
+             Maiores recusandae numquam voluptate fugit quasi.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by <br> Giorgi Bokhochadze</p>
+            <a href="http://fb.com/georgeusll "><i class="fa fa-facebook"></i></a>
+    </section>
+<script src="../Assignment_Website/javascript.js"></script>
+<script>
+    
+</script>
+</body>
+</html>

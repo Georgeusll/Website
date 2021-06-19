@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assignment_Website/style.css">
+    <link rel="stylesheet" href="../Assignment_Website/form.css">
+    <link rel="stylesheet" href="../Assignment_Website/course.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>University Website</title>
+</head>
+<body>
+    <section class="header">
+        <nav> 
+            <a href="mainpage.html"><img src="../Assignment_Website/images/logo.png" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-arrows-alt" onclick="hideMenu()" ></i>
+
+                <ul>
+                    <li><a href="../Assignment_Website/mainpage.html">HOME</a></li>
+                    <li><a href="../Assignment_Website/about.html">ABOUT</a></li>
+                    <li><a href="../Assignment_Website/course.html">COURSE</a></li>
+                    <li><a href="../Assignment_Website/register.html">REGISTER</a></li>
+                    <li><a href="#footer">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()" id = "menuicon"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>Register yourself here</h1>
+            <p>Scroll down              
+            </p>
+            
+        </div>
+    </section>
+    
+ <section class="register">
+    <div class="container">
+        <form method="POST" action="thankyou.html">
+          <div class="row">
+            <div class="col2">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col1">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col2">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col1">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            
+            </div>
+           
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col2">
+              <label for="reason">why are you here?</label>
+            </div>
+            <div class="col1">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" >
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit,
+            amet consectetur adipisicing elit.
+            Temporibus ducimus nemo veniam repellat
+            magnam dolorum reiciendis et ipsum voluptas?
+             Maiores recusandae numquam voluptate fugit quasi.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by <br> Giorgi Bokhochadze</p>
+            <a href="http://fb.com/georgeusll "><i class="fa fa-facebook"></i></a>
+    </section>
+
+    <script src="../Assignment_Website/javascript.js"></script></body>
+</html>
